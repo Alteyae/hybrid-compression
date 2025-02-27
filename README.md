@@ -12,6 +12,9 @@
 ###  `Y: 0.225`
 ###  `Z: -0.062`
 
+### How to change Models on what to Capture 
+### Go to "SpriteViewport" , then in the inspector tab, change the model.
+
 ### How to change the capture size of the model  
 ### Go to or click "Camera3D" Node
 ### In the 3D Scene, under "Perspective" . tuen on the "Preview"
