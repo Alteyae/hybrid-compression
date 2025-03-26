@@ -1,33 +1,48 @@
-## 🛠️ **Setup Guide**
+# 🛠️ Setup Guide
 
-### Use Godot_v4.3
+## Use **Godot v4.3**
 
-### 1️⃣ import project to Godot
+---
 
-### 2️⃣ How to use
-### To run the project press F6 not F5
-### All Captured Sprites is in "Sprites" folder
-### All models are in the same position
-###  `X: 0`
-###  `Y: 0.225`
-###  `Z: -0.062`
+## 1️⃣ Import Project to Godot
 
-### How to change Models on what to Capture 
-### Go to "SpriteViewport" , then in the inspector tab, change the model.
+1. Open **Godot v4.3**.  
+2. Click **Import** and select the project folder.  
 
-### How to change the capture size of the model  
-### Go to or click "Camera3D" Node
-### In the 3D Scene, under "Perspective" . tuen on the "Preview"
-### Then go to "Inspector" tab, located at the top right corner 
-### Locate "Size" and customize the desired POV to be capture of the model. 
-### Defoult Current Size used : 3m
+---
 
-### 3️⃣ Adding Models
-### In Models folder, you can get models inside of "GLB format".
-***NOTE: Other formats such as OBJ and FBX, is not compatible with Godot.
-### Drag the desired model in the 3D scene , under SpriteViewPort , Camera3D node. 
+## 2️⃣ How to Use
 
+- To run the project, **press F6** (not F5).  
+- All captured sprites are stored in the **"Sprites"** folder.  
+- All models are positioned at:  
+  - **X:** `0`  
+  - **Y:** `0.225`  
+  - **Z:** `-0.062`  
 
+---
 
+## 🔄 Changing Models for Capture
 
+- Go to **"SpriteViewport"** in the **Inspector** tab.  
+- Change the model as needed.  
 
+---
+
+## 📏 Adjusting the Capture Size
+
+1. Select **"Camera3D"** in the scene hierarchy.  
+2. In the **Inspector** tab (top-right corner), locate the **"Perspective"** section.  
+3. Enable **"Preview"** to see real-time adjustments.  
+4. Modify the **"Size"** parameter to customize the desired POV for capturing the model.  
+   - **Default Size Used:** `3m`  
+
+---
+
+## 3️⃣ Adding Models
+
+- Place new models inside the **"Models"** folder in **GLB format**.  
+- ❗ **Note:** Other formats such as **OBJ** and **FBX** are **not compatible** with Godot.  
+- To add a model:  
+  1. Drag the desired **GLB** model into the **3D scene**.  
+  2. Place it under **SpriteViewport > Camera3D**.  
