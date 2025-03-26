@@ -1,11 +1,28 @@
-Model Information:
-* title:	Indominus Rex
-* source:	https://sketchfab.com/3d-models/indominus-rex-849c877102b045c8a0af4d28b3d583f0
-* author:	Godzilla Models (https://sketchfab.com/GodzillaModels)
+	
 
-Model License:
-* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
-* requirements:	Author must be credited. Commercial use is allowed.
+	Car Kit (2.0)
 
-If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Indominus Rex" (https://sketchfab.com/3d-models/indominus-rex-849c877102b045c8a0af4d28b3d583f0) by Godzilla Models (https://sketchfab.com/GodzillaModels) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+	Created/distributed by Kenney (www.kenney.nl)
+	Creation date: 01-05-2024 11:13
+	
+			------------------------------
+
+	License: (Creative Commons Zero, CC0)
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	You can use this content for personal, educational, and commercial purposes.
+
+	Support by crediting 'Kenney' or 'www.kenney.nl' (this is not a requirement)
+
+			------------------------------
+
+	• Website : www.kenney.nl
+	• Donate  : www.kenney.nl/donate
+
+	• Patreon : patreon.com/kenney
+	
+	Follow on social media for updates:
+
+	• Twitter:   twitter.com/KenneyNL
+	• Instagram: instagram.com/kenney_nl
+	• Mastodon:  mastodon.gamedev.place/@kenney

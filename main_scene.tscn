@@ -1,0 +1,88 @@
+[gd_scene load_steps=16 format=3 uid="uid://dwc0aqlej183o"]
+
+[ext_resource type="Script" path="res://sprite_viewport.gd" id="1_yusxo"]
+[ext_resource type="PackedScene" uid="uid://d4c7gobug26q8" path="res://Models/GLB format/ambulance.glb" id="2_k2v70"]
+[ext_resource type="PackedScene" uid="uid://bo0i3ugx0jrhf" path="res://Models/GLB format/delivery.glb" id="3_hkxgc"]
+[ext_resource type="PackedScene" uid="uid://b3pjbetawid3n" path="res://Models/GLB format/firetruck.glb" id="4_hl4wx"]
+[ext_resource type="PackedScene" uid="uid://cn5s7w8bl8ccg" path="res://Models/GLB format/garbage-truck.glb" id="5_ombxl"]
+[ext_resource type="PackedScene" uid="uid://dg61rx53sn5i3" path="res://Models/GLB format/police.glb" id="6_s40md"]
+[ext_resource type="PackedScene" uid="uid://bwg4y3dp33cmt" path="res://Models/GLB format/race.glb" id="7_du5x7"]
+[ext_resource type="PackedScene" uid="uid://bpj3orm847kic" path="res://Models/GLB format/sedan.glb" id="8_b4dw7"]
+[ext_resource type="PackedScene" uid="uid://oeglgju5andh" path="res://Models/GLB format/suv-luxury.glb" id="9_6hobf"]
+[ext_resource type="PackedScene" uid="uid://6hl706d3cp2j" path="res://Test_HD_Model/T-Rex/scene.gltf" id="10_ey51k"]
+[ext_resource type="PackedScene" uid="uid://c7ubcf472dk8d" path="res://Test_HD_Model/atlasg-toilet_5.0_arms/scene.gltf" id="11_mipdc"]
+[ext_resource type="PackedScene" uid="uid://c6skd8wkhllvu" path="res://Test_HD_Model/dark_souls_3_firelink_set/scene.gltf" id="12_aa72s"]
+[ext_resource type="PackedScene" uid="uid://3ueek1rdnrad" path="res://Test_HD_Model/excavator_3d_model/scene.gltf" id="13_26trl"]
+[ext_resource type="PackedScene" uid="uid://uqth11mkyqa4" path="res://Test_HD_Model/military/scene.gltf" id="14_h32mf"]
+[ext_resource type="PackedScene" uid="uid://0cuul4qafea" path="res://Test_HD_Model/soccer_ball.glb" id="15_5cpvj"]
+
+[node name="MainScene" type="Node3D"]
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SpriteViewport" type="SubViewport" parent="SubViewportContainer" node_paths=PackedStringArray("model")]
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(256, 256)
+render_target_update_mode = 4
+script = ExtResource("1_yusxo")
+model = NodePath("Sketchfab_Scene6")
+angles = 359
+
+[node name="Camera3D" type="Camera3D" parent="SubViewportContainer/SpriteViewport"]
+transform = Transform3D(1, -3.05711e-14, 1.74846e-07, 0, 1, 1.74846e-07, -1.74846e-07, -1.74846e-07, 1, 0, 0, 11)
+projection = 1
+
+[node name="ambulance" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("2_k2v70")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000282019, 0.224648, -0.0622673)
+visible = false
+
+[node name="delivery" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("3_hkxgc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.225, -0.062)
+visible = false
+
+[node name="firetruck" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("4_hl4wx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.225, -0.062)
+visible = false
+
+[node name="garbage-truck" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("5_ombxl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.225, -0.062)
+visible = false
+
+[node name="police" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("6_s40md")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.225, -0.062)
+visible = false
+
+[node name="race" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("7_du5x7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.225, -0.062)
+visible = false
+
+[node name="sedan" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("8_b4dw7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.225, -0.062)
+visible = false
+
+[node name="suv-luxury" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("9_6hobf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.225, -0.062)
+visible = false
+
+[node name="Sketchfab_Scene" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("10_ey51k")]
+visible = false
+
+[node name="Sketchfab_Scene2" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("11_mipdc")]
+visible = false
+
+[node name="Sketchfab_Scene3" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("12_aa72s")]
+visible = false
+
+[node name="Sketchfab_Scene4" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("13_26trl")]
+visible = false
+
+[node name="Sketchfab_Scene5" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("14_h32mf")]
+visible = false
+
+[node name="Sketchfab_Scene6" parent="SubViewportContainer/SpriteViewport" instance=ExtResource("15_5cpvj")]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="SubViewportContainer/SpriteViewport"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.8713, 51.1315, 0)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Atlas/G-Toilet 5.0 arms
+* source:	https://sketchfab.com/3d-models/atlasg-toilet-50-arms-45b1c2706b5649048cdbbc419cc986c5
+* author:	EVESTONWARDEN (https://sketchfab.com/Eveston289)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Atlas/G-Toilet 5.0 arms" (https://sketchfab.com/3d-models/atlasg-toilet-50-arms-45b1c2706b5649048cdbbc419cc986c5) by EVESTONWARDEN (https://sketchfab.com/Eveston289) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

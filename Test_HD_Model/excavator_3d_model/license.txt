@@ -1,0 +1,11 @@
+Model Information:
+* title:	Excavator 3d Model
+* source:	https://sketchfab.com/3d-models/excavator-3d-model-82b053ba8f5e41d4b35414cab5f1f3e5
+* author:	Falah3D (https://sketchfab.com/3dFalah)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Excavator 3d Model" (https://sketchfab.com/3d-models/excavator-3d-model-82b053ba8f5e41d4b35414cab5f1f3e5) by Falah3D (https://sketchfab.com/3dFalah) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
