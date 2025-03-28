@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxg5ra0rl650y"]
+
+[ext_resource type="Texture2D" uid="uid://c3ikaccwbvsgq" path="res://ss_0.png" id="1_5s068"]
+[ext_resource type="Script" path="res://sprite_3d.gd" id="2_8kn40"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_47hhm"]
+size = Vector2(5, 5)
+
+[node name="BenchmarkScene" type="Node3D"]
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_47hhm")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.999391, -0.0348995, 0, 0.0348995, 0.999391, 0, 0.5, 2)
+fov = 45.0
+near = 0.001
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.68979e-05, 0.00264442, 0.000333905)
+offset = Vector2(0, 73)
+texture = ExtResource("1_5s068")
+hframes = 20
+vframes = 18
+script = ExtResource("2_8kn40")
